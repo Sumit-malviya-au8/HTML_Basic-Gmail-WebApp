@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;700;900&display=swap');
+
+/* ===========Layout Style===================== */
+body {
+  background-image: url(https://images.unsplash.com/photo-1533206831064-decd0fb382a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1396&q=80);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Martel', serif;
+  font-size: 16px;
+  font-weight: 900 ;
+}
+
+.header {
+  background-color: transparent;
+  height: 60px; 
+  text-align: center;
+  padding-top: 20px;  
+}
+
+/* ======Search Bar===== */
+.header input{
+  height: 20px;
+  width: 700px;
+  border-radius: 20px;
+  padding: 10px
+}
+/* ======Gmail icons and setting icons===== */
+.header img {
+  height: 40px; 
+  text-align: left;
+  padding: 10px;  
+  float: left;
+  opacity: 1.0;
+}
+
+.header img:hover{
+  opacity: 0.4;
+}
+
+#setting {
+  height: 30px; 
+  padding: 20px 20px 20px 0px;
+  float: right;
+  opacity: 1.0;
+}
+
+#setting:hover{
+  opacity: 0.4;
+}
+
+#setting-night-icon {
+  height: 30px; 
+  padding: 20px 5px;  
+  float: right;
+  opacity: 1.0;
+}
+
+#setting-night-icon:hover{
+  opacity: 0.4;
+}
+
+#setting-msg{
+  height: 30px; 
+  padding: 20px 5px;  
+  float: right;
+  opacity: 1.0;
+}
+
+#setting-msg:hover{
+  opacity: 0.4;
+}
+
+.main{
+  font-weight: 600;
+  background-color:transparent;
+  margin: 10px 10px 5px 260px;
+  padding: 10px 0px 5px 0px;
+  font-size: 100%
+  border-radius: 5px; 
+  clear: right;
+}
+
+.row td{
+  text-align: left;
+  background-color:lightgray;
+  margin: 5px 5px 5px 260px;
+  padding: 10px;
+}
+
+.Footer-img{
+  margin: 0px 0px 0px 260px;
+  float: left; 
+  border-radius : 10px;
+  width: 1090px;
+  height: 100px;
+  opacity: 1.0; 
+  clear: right;
+}
+
+.Footer-img:hover{
+  opacity: 0.4;
+}
+/* =======Left side Inbox,Sent keys======== */
+.aside-left{
+  background-color :transparent;
+  padding: 10px;
+  font-size : 110%;
+  border-radius : 5px;
+  width : 220px;
+  margin: 0px 0px 10px 10px;
+  float: left;
+  font-size: 18px;
+  clear: left; 
+}
+
+.aside-left ul{
+  list-style-type: none;
+}
+/* =========KFC Ad========= */
+.imgsidebar{
+  border-radius : 10px;
+  width : 240px;
+  margin: 0px 0px 0px 10px;
+  float: left;
+  clear: left;  
+  opacity: 1.0; 
+}
+
+.imgsidebar:hover{
+  opacity: 0.4;
+}
+.chat{
+  text-align: center;
+  color: gray;
+  background-color: wheat;
+  border-radius : 10px;
+  width : 240px;
+  margin: 10px 0px 0px 10px;
+  height: 50px;
+  float: left;
+  clear: left;  
+  opacity: 1.0; 
+}
+
+.chat:hover{
+  opacity: 0.4;
+}
+
+/* ============Compose key========= */
+#com{
+  background-color: white;
+  border-radius: 30px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+  opacity: 1.0;
+}
+#com:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
